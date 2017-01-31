@@ -1,0 +1,33 @@
+body {
+        background: navy;
+        font-family: sans-serif;
+        color: #212121;
+        padding: 0px;
+        margin: 0px;
+    }
+.container{
+    background: white;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 15px;
+}
+    
+.container2{
+    background: white;
+    margin: 10px 120px;
+    padding: 10px;
+    border-radius: 15px;
+        
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 3em;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-size: 2em;
+}
