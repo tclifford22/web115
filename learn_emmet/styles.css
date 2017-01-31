@@ -1,0 +1,30 @@
+body {
+    background: darkgrey;
+    color: #545454;
+    font-family: sans-serif;
+    padding: 2em 2em 4em;
+}
+
+#heading{
+    text-align: center;
+}
+
+.container{
+    background: Black;
+    color:white;
+    margin: -40px;
+    padding: 1px;
+    text-align: center;
+}
+
+#container2{
+    background: white;
+    color:black;
+    margin:40px -40px;
+    padding: 20px 60px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 4em;
+}
