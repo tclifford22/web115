@@ -1,0 +1,27 @@
+@import "variables.scss";
+html {
+    font-size: 70%;
+}
+ 
+body {
+    font-family: helvetica, sans-serif;
+    color: black;
+    background-color: $yellow;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    color: $darkblue;
+    font-size: 2em;
+    
+    .item {
+        margin-bottom: 20px;
+        border-top: 1px dotted $border;
+        padding-top: 10px;
+    }
+}
+
+

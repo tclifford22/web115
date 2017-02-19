@@ -1,0 +1,25 @@
+/* line 5, /Users/missusdms/Documents/Classes/MCC/Web 115/sassscript1/styles.scss */
+html {
+  font-size: 70%; }
+
+/* line 9, /Users/missusdms/Documents/Classes/MCC/Web 115/sassscript1/styles.scss */
+body {
+  font-family: helvetica, sans-serif;
+  color: black;
+  background-color: #EDE106;
+  margin: 0;
+  padding: 0; }
+
+/* line 17, /Users/missusdms/Documents/Classes/MCC/Web 115/sassscript1/styles.scss */
+.container {
+  width: 70%;
+  margin: 0 auto;
+  color: #022933;
+  font-size: 2em; }
+  /* line 23, /Users/missusdms/Documents/Classes/MCC/Web 115/sassscript1/styles.scss */
+  .container .item {
+    margin-bottom: 20px;
+    border-top: 1px dotted #ff0000;
+    padding-top: 10px; }
+
+/*# sourceMappingURL=styles.css.map */
