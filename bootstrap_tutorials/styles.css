@@ -1,0 +1,20 @@
+/* line 1, /Users/administrator/Desktop/bootstap/styles.scss */
+body {
+  background: darkgrey; }
+
+/* line 5, /Users/administrator/Desktop/bootstap/styles.scss */
+.container {
+  max-width: 960px;
+  border: 2px solid darkorange;
+  background: ivory; }
+
+/* line 11, /Users/administrator/Desktop/bootstap/styles.scss */
+h1 {
+  text-align: center;
+  color: darkorange; }
+
+/* line 16, /Users/administrator/Desktop/bootstap/styles.scss */
+.tj {
+  border: 1px solid black; }
+
+/*# sourceMappingURL=styles.css.map */
