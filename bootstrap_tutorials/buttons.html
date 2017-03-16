@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Bootstrap</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+   <div class="container">
+      <div class="row">
+          <div class="col-sm-12">
+               <h1>Button Demo</h1>
+               <br>
+            </div>
+       </div>
+       <div class="row">
+           <div class="col-sm-12">
+                    <h2>Button Styles and Sizes</h2>
+                      <button type="button" class="btn btn-default btn-lg">Default</button>
+                      <button type="button" class="btn btn-primary btn-md">Blue (Primary)</button>
+                      <button type="button" class="btn btn-success btn-sm">Green (Success)</button>
+                      <button type="button" class="btn btn-info btn-xs">Light Blue (Info)</button>
+                      <button type="button" class="btn btn-warning btn-sm">Orange (Warning)</button>
+                      <button type="button" class="btn btn-danger btn-md">Red (Danger)</button>
+                      <button type="button" class="btn btn-link">Link</button>  
+                    <br>
+                    <h2>Button Tags</h2>
+                      <a href="#" class="btn btn-info" role="button">Link Button</a>
+                      <button type="button" class="btn btn-info">Button</button>
+                      <input type="button" class="btn btn-info" value="Input Button">
+                      <input type="submit" class="btn btn-info" value="Submit Button"> 
+                    <br> 
+                    <h2>Block Level Buttons and Active/Disabled</h2>
+                      <button type="button" class="btn btn-default btn-block active">Button 1</button>
+                      <button type="button" class="btn btn-primary btn-block disabled">Button 2</button>
+                      <button type="button" class="btn btn-success btn-lg btn-block active">Button 1</button>
+                      <button type="button" class="btn btn-info btn-lg btn-block disabled">Button 2</button>
+                      <button type="button" class="btn btn-warning btn-sm btn-block active">Button 1</button>
+                      <button type="button" class="btn btn-danger btn-sm btn-block disabled">Button 2</button>
+                    <br>
+                    <br>
+                    <h1> Button Groups</h1>
+                    <br>
+                    <h2> Horizontal, Vertical, and Nesting Group </h2>
+                    <div class="btn-group">
+                    <button type="button" class="btn btn-primary">Group 1</button>
+                    <button type="button" class="btn btn-primary">Group 2</button>
+                    <button type="button" class="btn btn-primary">Group 3</button>
+                    <br>
+                    <br>
+                    <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-primary">Group 1</button>
+                    <button type="button" class="btn btn-primary">Group 2</button>
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Group 3 <span class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Nesting 1</a></li>
+                        <li><a href="#">Nesting 2</a></li>
+                    </ul>
+                    </div>
+                    </div>
+                    <br>
+                    <br>
+                    <h2>Justified Group</h2>
+                    <div class="btn-group btn-group-justified">
+                    <a href="#" class="btn btn-primary">Group 1</a>
+                    <a href="#" class="btn btn-primary">Group 2</a>
+                    <a href="#" class="btn btn-primary">Group 3</a>
+                    </div>
+                    <br>
+                    <br>
+                    <h1> Glyphicons</h1>
+                    <br>
+                    <br>
+                      <h2>Glyphicon Examples</h2>
+                      <p>Envelope icon: <span class="glyphicon glyphicon-fire"></span></p>    
+                      <p>Envelope icon as a link:
+                        <a href="#"><span class="glyphicon glyphicon-fire"></span></a>
+                      </p>
+                      <p>Search icon: <span class="glyphicon glyphicon-magnet"></span></p>
+                      <p>Search icon on a button:
+                            <button type="button" class="btn btn-default">
+                              <span class="glyphicon glyphicon-search"></span> Search
+                            </button>
+                      </p>
+                      <p>Search icon on a styled button:
+                            <button type="button" class="btn btn-info">
+                              <span class="glyphicon glyphicon-search"></span> Search
+                            </button>
+                      </p>
+                      <p>Print icon: <span class="glyphicon glyphicon-print"></span></p>      
+                      <p>Print icon on a styled link button:
+                        <a href="#" class="btn btn-success btn-lg">
+                              <span class="glyphicon glyphicon-print"></span> Print 
+                        </a>
+                      </p> 
+                    <br>
+                    <br>
+                    <h1> Badges and Labels</h1>
+                    <br>
+                    <br>
+                    <h2>Badges</h2>
+                      <h3><a href="#">News <span class="badge">Badge 1</span></a><br></h3>
+                      <h4><a href="#">Comments <span class="badge">Badge 2</span></a><br></h4>
+                      <h5><a href="#">Updates <span class="badge">Badge 3</span></a></h5>
+                    <br>
+                    <h2>Badges on Buttons</h2>
+                      <button type="button" class="btn btn-success">Correct <span class="badge">7</span></button>
+                      <button type="button" class="btn btn-warning">Almost <span class="badge">3</span></button>    
+                      <button type="button" class="btn btn-danger">Wrong <span class="badge">5</span></button>
+                    <br>
+                    <br>
+                    <h2>Contextual Label Classes</h2>
+                      <p>Contextual classes can be used to color the label.</p>  
+                      <span class="label label-default">Default Label</span>
+                      <span class="label label-primary">Primary Label</span>
+                      <span class="label label-success">Success Label</span>
+                      <span class="label label-info">Info Label</span>
+                      <span class="label label-warning">Warning Label</span>
+                      <span class="label label-danger">Danger Label</span>
+                      <br>
+                      <br>
+                    
+                   </div>
+                </div>
+    </div>
+</body>
+</html>
