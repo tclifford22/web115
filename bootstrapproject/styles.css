@@ -1,0 +1,26 @@
+/* line 1, /Users/administrator/Desktop/Bootstrap Project/styles.scss */
+body {
+  background: black; }
+
+/* line 5, /Users/administrator/Desktop/Bootstrap Project/styles.scss */
+.container {
+  background: ivory;
+  padding: 10px; }
+
+/* line 10, /Users/administrator/Desktop/Bootstrap Project/styles.scss */
+h1 {
+  text-align: center;
+  color: dodgerblue;
+  font-size: 3.5em; }
+
+/* line 16, /Users/administrator/Desktop/Bootstrap Project/styles.scss */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto; }
+
+/* line 22, /Users/administrator/Desktop/Bootstrap Project/styles.scss */
+p {
+  font-family: 'Open Sans', sans-serif; }
+
+/*# sourceMappingURL=styles.css.map */
